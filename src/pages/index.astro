@@ -1,0 +1,11 @@
+---
+import { CqiMap } from '@components/project_cqi/page_map/CqiMap'
+import LayoutApp from '@layouts/LayoutApp.astro'
+---
+
+<LayoutApp title="Cycling Quality Index Map (BETA-Version)">
+  <CqiMap client:load />
+  <div class="absolute bottom-3 left-3 rounded bg-white/80 px-1 py-0.5 text-xs">
+    Atjaunināts: 2024-03-25
+  </div>
+</LayoutApp>
